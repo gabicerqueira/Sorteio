@@ -1,0 +1,163 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+body{
+    /* background-image: linear-gradient(to top, rgb(38, 0, 45), rgb(23, 0, 107)); */
+    background-repeat: no-repeat;
+    /* background-color: black; */
+    background-image: url(img/cassino.jpg);
+    background-size: cover;
+}
+
+.container{
+    margin: 200px 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.dois{
+    display: flex;
+}
+
+h2{
+    font: 700 40px 'Open Sans', sans-serif;
+    color: white;
+    margin-top: 12px;
+}
+
+img{
+    width: 70px;
+    height: 70px;
+    margin-top: 5px;
+    /* margin-bottom: 50px; */
+    margin-left: 440px;
+    margin-right: 40px;
+}
+
+
+label{
+    color: white;
+}
+
+button{
+    border-radius: 20px;
+    width: 300px;
+    height: 50px;
+    background-color: red;
+    box-shadow: 3px 5px 5px 3px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* button:hover{
+    -webkit-transform: scale(1.1);
+   transform: scale(0.9);
+   padding-bottom: 40px;
+} */
+
+.fundo{
+    background-color: rgba(0, 0, 0, 0.951);
+    margin: 0;
+    width: 800px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    border-radius: 20px;
+    padding-bottom: 50px;
+}
+
+.header{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(168, 0, 0);
+    display: flex;
+    box-shadow: 3px 4px 4px 3px rgba(0, 0, 0, 0.827);
+}
+
+.titulo{
+    font: 600 35px 'Montserrat', sans-serif;
+    color: white;
+    padding: 60px 0;
+}
+
+.entradas{
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.entrada{
+    margin: 0 30px;
+}
+
+.numero{
+    font: 400 20px 'Montserrat', sans-serif;
+    color: white;
+    padding-bottom: 20px;
+}
+
+#resultado{
+    color: rgb(0, 0, 0);
+    font: 400 20px 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 12px;
+}
+
+input{
+    border-radius: 10px;
+    width: 200px;
+    height: 80px;
+    font: 400 22px 'Montserrat', sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+#sortear{
+    font: 400 16px 'Montserrat', sans-serif;
+    color: white;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+
+
+.sorteio{
+    font: 400 22px 'Montserrat', sans-serif;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.final{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 200px;
+    height: 48px;
+    margin-top: 51px;
+}
+
+.nome{
+    font: 400 22px 'Montserrat', sans-serif;
+}
+
+.junto{
+    display: flex;
+}
+
+.retangulo{
+    display: flex;
+}
