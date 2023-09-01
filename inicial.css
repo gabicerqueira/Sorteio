@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Bricolage';
+    src: url(fonts/BricolageGrotesque_18pt-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'BricolageBold';
+    src: url(fonts/BricolageGrotesque_18pt-Bold.ttf);
+}
+
+body{
+    background-color: rgb(124, 0, 169);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa{
+    background-color: #67008d;
+    padding: 50px 50px;
+    margin: 85px 0;
+    border-radius: 15px;
+}
+
+.caixa img{
+    width: 150px;
+}
+
+.imagem{
+    text-align: center;
+}
+
+.texto{
+    font-family: 'Bricolage', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+h2{
+    font-family: 'Bricolage', sans-serif;
+    color: white;
+    margin-top: 10px;
+    font-size: 32px;
+}
+
+.conteudo{
+    text-align: center;
+}
+
+.botoes{
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a{
+    border-radius: 30px;
+    border: 10px solid white;
+    background-color: white;
+    padding: 2px 40px;
+    margin: 10px 30px;
+    font: 600 22px 'BricolageBold', sans-serif;
+    color: #67008d;
+}
+
+h1{
+    text-align: center;
+    padding-top: 50px;
+    font: 600 50px 'BricolageBold', sans-serif;
+    color: white;
+    letter-spacing: 1px;
+}
+

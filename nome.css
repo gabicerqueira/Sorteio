@@ -1,0 +1,43 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Bricolage';
+    src: url(fonts/BricolageGrotesque_18pt-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'BricolageBold';
+    src: url(fonts/BricolageGrotesque_18pt-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Unb';
+    src: url(fonts/Unbounded-Regular.ttf);
+}
+
+.header{
+    background-color: #67008d;
+}
+
+.header img{
+    width: 70px;
+}
+
+h1{
+    font: 600 30px 'Unb', sans-serif;
+    color: white;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+}
