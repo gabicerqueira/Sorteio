@@ -24,12 +24,24 @@ a{
     src: url(fonts/Unbounded-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'Raleway';
+    src: url(fonts/Raleway-Regular.ttf);
+}
+
+body{
+    /* background-color: #d39eff; */
+    background-image: url(img/Design\ sem\ nome.png);
+    background-size: cover;
+}
+
 .header{
     background-color: #67008d;
 }
 
 .header img{
     width: 70px;
+    margin-right: 10px;
 }
 
 h1{
@@ -39,5 +51,60 @@ h1{
 
 .cabecalho{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+.seta{
+    margin: 30px;
+}
+
+i{
+    font-size: 40px;
+}
+
+.app{
+    background-color: #67008d;
+    border-radius: 18px;
+    text-align: center;
+    margin: 0 20%;
+}
+
+h2{
+    font: 500 30px 'BricolageBold', sans-serif;
+    color: white;
+    padding-top: 40px;
+}
+
+label{
+    font: 500 22px 'Bricolage', sans-serif;
+    color: white;
+    padding-top: 25px;
+}
+
+textarea{
+    font: 500 17px 'Bricolage', sans-serif;
+    resize: none;
+    width: 300px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button{
+    font: 500 22px 'Bricolage', sans-serif;
+    width: 100px;
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
