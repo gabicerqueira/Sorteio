@@ -108,3 +108,15 @@ button{
     flex-direction: column;
     align-items: center;
 }
+
+.resultado{
+    background-color: white;
+    margin-top: 40px;
+    width: 300px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
