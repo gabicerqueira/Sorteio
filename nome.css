@@ -68,13 +68,14 @@ i{
     background-color: #67008d;
     border-radius: 18px;
     text-align: center;
-    margin: 0 20%;
+    margin: 50px 30%;
 }
 
 h2{
     font: 500 30px 'BricolageBold', sans-serif;
     color: white;
     padding-top: 40px;
+
 }
 
 label{
@@ -103,6 +104,10 @@ button{
     cursor: pointer;
 }
 
+p{
+    font: 500 22px 'Bricolage', sans-serif;
+}
+
 .formulario{
     display: flex;
     flex-direction: column;
@@ -111,12 +116,41 @@ button{
 
 .resultado{
     background-color: white;
-    margin-top: 40px;
+    border-radius: 20px;
+    margin: 40px 0;
     width: 300px;
+    padding: 18px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    textarea{
+        font: 500 15px 'Bricolage', sans-serif;
+        width: 250px;
+    }
+
+    button{
+        font: 500 18px 'Bricolage', sans-serif;
+    }
+
+    .resultado{
+        width: 200px;
+    }
+
+    p{
+        font: 500 18px 'Bricolage', sans-serif;
+    }
+
+    .app{
+        margin: 20px 20% 90px 20%;
+    }
+
 }
