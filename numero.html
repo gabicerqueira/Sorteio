@@ -15,14 +15,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/65d3d9eac0.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
+    
     <div class="header">
-        <img src="img/roleta.png" alt="">
-        <h2>SORTEIO DE NÚMEROS</h2>
+        <div class="cabecalho">
+            <a href="inicial.html"><img src="img/roleta.png" alt=""></a>
+            <h1>SORTEIO DE NÚMEROS</h1>
+        </div>
     </div>
+
+    <div class="seta">
+        <a href="inicial.html"><i class="fa-regular fa-circle-left" style="color: #000000;"></i></a>
+    </div>
+
     <div class="container">
 
 
@@ -46,17 +55,19 @@
 
 
             </div>
-        </div>
 
-        <div class="retangulo">
-            <button id="sortear">
-                <p class="nome">SORTEAR</p>
-            </button>
-
-            <div class="final">
-                <div id="resultado"></div>
+            <div class="retangulo">
+                <button id="sortear">
+                    <p class="nome">Sortear</p>
+                </button>
+    
+                <div class="final">
+                    <div id="resultado">Resultado:</div>
+                </div>
             </div>
         </div>
+
+        
 
     </div>
 
