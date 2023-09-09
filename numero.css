@@ -114,19 +114,10 @@ button:hover{
 }
 
 .fundo{
-    /* background-color: rgba(0, 0, 0, 0.951);
-    margin: 0;
-    width: 800px;
-    height: 350px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 20px;
-    padding-bottom: 50px; */
     background-color: #67008d;
     border-radius: 18px;
     text-align: center;
-    margin: 30px 30%;
+    margin: 24px 30%;
     margin-bottom: 120px;
     box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.37);
 }
@@ -149,6 +140,8 @@ button:hover{
 .entradas{
     display: flex;
     padding-bottom: 40px;
+    align-items: center;
+    justify-content: center;
 }
 
 .entrada{
@@ -163,6 +156,8 @@ button:hover{
 
 #resultado{
     font: 500 22px 'Bricolage', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 input{
@@ -222,4 +217,24 @@ input{
 
 i{
     font-size: 40px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .final{
+        width: 250px;
+    }
+
+    .fundo{
+        margin: 20px 20% 90px 20%;
+    }
+
+    .entradas{
+        flex-direction: column;
+    }
+
+    .e{
+        margin: 20px 0;
+    }
+
 }

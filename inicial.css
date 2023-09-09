@@ -64,6 +64,7 @@ h2{
     text-align: center;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 a{
@@ -84,3 +85,14 @@ h1{
     letter-spacing: 1px;
 }
 
+@media screen and (max-width: 768px) {
+    .caixa{
+        margin: 85px 73px;
+        padding: 40px;
+    }
+
+    h2{
+        font-size: 27px;
+        margin-bottom: 10px;
+    }
+}
